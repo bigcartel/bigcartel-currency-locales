@@ -1,6 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 
-require 'currency-locales'
+require 'bigcartel-currency-locales'
 
 begin
   require 'action_controller/railtie'
