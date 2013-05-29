@@ -1,3 +1,23 @@
-# Big Cartel Currency Locales
+# Big Cartel Currency Locales [![Build Status](https://travis-ci.org/bigcartel/bigcartel-currency-locales.png?branch=master)](https://travis-ci.org/bigcartel/bigcartel-currency-locales) [![Gem Version](https://badge.fury.io/rb/bigcartel-currency-locales.png)](http://badge.fury.io/rb/bigcartel-currency-locales)
 
-This gem loads locale data for all of [Big Cartel's supported currencies](http://help.bigcartel.com/customer/portal/articles/772222#currency) so that we can format the currency amounts with the I18n gem.
+Loads locale data for all of [Big Cartel's supported currencies](http://help.bigcartel.com/customer/portal/articles/772222#currency) so that we can format the currency amounts with the I18n gem. Used internally by [Big Cartel](http://bigcartel.com) and [Dugway](https://github.com/bigcartel/dugway).
+
+## Install
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'bigcartel-currency-locales'
+```
+
+And then execute:
+
+```ruby
+bundle
+```
+
+Or install it yourself as:
+
+```ruby
+gem install bigcartel-currency-locales
+```
