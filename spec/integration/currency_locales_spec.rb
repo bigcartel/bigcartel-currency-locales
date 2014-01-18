@@ -183,11 +183,11 @@ describe "CurrencyLocales" do
     let(:locale) { 'gsw-CH' }
     
     it "should translate the small amount to currency" do
-      small_currency.should == 'SFr.9.99'
+      small_currency.should == 'CHF9.99'
     end
     
     it "should translate the big amount to currency" do
-      big_currency.should == 'SFr.9,999.99'
+      big_currency.should == 'CHF9,999.99'
     end
     
     it "should translate the small amount with precision" do
