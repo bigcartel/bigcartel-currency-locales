@@ -339,6 +339,26 @@ describe "CurrencyLocales" do
     end
   end
   
+  describe "ru" do
+    let(:locale) { 'ru' }
+    
+    it "should translate the small amount to currency" do
+      small_currency.should == '9.99 руб.'
+    end
+    
+    it "should translate the big amount to currency" do
+      big_currency.should == '9 999.99 руб.'
+    end
+    
+    it "should translate the small amount with precision" do
+      small_precision.should == '9.990'
+    end
+    
+    it "should translate the big amount with precision" do
+      big_precision.should == '9999.990'
+    end
+  end
+  
   describe "sv-SE" do
     let(:locale) { 'sv-SE' }
     
