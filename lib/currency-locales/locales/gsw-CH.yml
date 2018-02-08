@@ -9,7 +9,7 @@
       
     currency:
       format:
-        unit: 'SFr.'
+        unit: 'CHF'
         format: '%u%n'
         separator: '.'
         delimiter: ","
