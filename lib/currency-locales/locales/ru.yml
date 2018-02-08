@@ -1,0 +1,26 @@
+# Russian translation file for standard Ruby on Rails internationalization
+# https://raw.github.com/svenfuchs/rails-i18n/master/rails/locale/ru.yml
+
+ru:
+  number:
+    format:
+      delimiter: ! ' '
+      precision: 3
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
+    currency:
+      format:
+        delimiter: ! ' '
+        format: ! '%n %u'
+        precision: 2
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: руб.
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
