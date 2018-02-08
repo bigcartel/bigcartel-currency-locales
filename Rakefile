@@ -17,9 +17,7 @@ if Module.const_defined? "RSpec"
     t.rspec_opts = %w[--color]
   end
 else
-  Spec::Rake::SpecTask.new(:spec) do |t|
-    t.spec_opts = %w[--color]
-  end
+  Spec::Rake::SpecTask.new(:spec)
 end
 
 task :default => [:spec]
