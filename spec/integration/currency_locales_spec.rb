@@ -98,7 +98,27 @@ describe "CurrencyLocales" do
       big_precision.should == '9,999.99'
     end
   end
-  
+
+  describe "en-IN" do
+    let(:locale) { 'en-IN' }
+
+    it "should translate the small amount to currency" do
+      small_currency.should == '₹9.99'
+    end
+
+    it "should translate the big amount to currency" do
+      big_currency.should == '₹9,999.99'
+    end
+
+    it "should translate the small amount with precision" do
+      small_precision.should == '9.99'
+    end
+
+    it "should translate the big amount with precision" do
+      big_precision.should == '9999.99'
+    end
+  end
+
   describe "en-PH" do
     let(:locale) { 'en-PH' }
     
