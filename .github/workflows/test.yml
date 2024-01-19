@@ -1,0 +1,19 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+      - run: bundle install
+      - run: bundle exec appraisal install
+      - run: bundle exec appraisal rake
