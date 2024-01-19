@@ -1,7 +1,7 @@
-appraise "rails-6" do
-  gem "rails", "~> 6"
+appraise "rails-7" do
+  gem "rails", "~> 7"
 end
 
-appraise "rails-5" do
-  gem "rails", "~> 5"
+appraise "rails-6" do
+  gem "rails", "~> 6"
 end
