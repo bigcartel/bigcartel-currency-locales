@@ -1,4 +1,4 @@
-"sv-SE":
+sv-SE:
   number:
     format:
       separator: ","
@@ -9,7 +9,7 @@
 
     currency:
       format:
-        format: "%n%u"
+        format: "%n %u"
         unit: "kr"
         separator: ","
         delimiter: ""
