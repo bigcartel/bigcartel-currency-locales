@@ -1,4 +1,4 @@
-# Big Cartel Currency Locales [![Build Status](https://travis-ci.org/bigcartel/bigcartel-currency-locales.png?branch=master)](https://travis-ci.org/bigcartel/bigcartel-currency-locales) [![Gem Version](https://badge.fury.io/rb/bigcartel-currency-locales.png)](http://badge.fury.io/rb/bigcartel-currency-locales)
+# Big Cartel Currency Locales
 
 Loads locale data for all of Big Cartel's supported currencies so that we can
 format the currency amounts with the I18n gem. Used internally by [Big

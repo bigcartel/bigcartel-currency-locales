@@ -1,27 +1,17 @@
 ENV["RAILS_ENV"] = "test"
 
 require 'bigcartel-currency-locales'
+require 'action_controller/railtie'
 
-begin
-  require 'action_controller/railtie'
-  $stdout.puts "Testing against Rails #{ Rails::VERSION::STRING }"
-rescue LoadError
-  gem 'rails'
-  require 'action_pack'
-  require 'action_controller'
-  $stdout.puts "Testing against Rails #{ ActionPack::VERSION::STRING }"
-end
+$stdout.puts "\nTesting against Rails #{Rails::VERSION::STRING}"
 
 BigCartel::CurrencyLocales.insert
 
-if Module.const_defined?("RSpec")
-  RSpec.configure do |config|
-    config.mock_with :rspec
-    config.fail_fast = true
-  end
-else
-  require 'spec'
-  Spec::Runner.configure do |config|
-    config.mock_with :rspec
+RSpec.configure do |config|
+  config.mock_with :rspec
+  config.fail_fast = true
+
+  config.expect_with(:rspec) do |c|
+    c.syntax = :should
   end
 end

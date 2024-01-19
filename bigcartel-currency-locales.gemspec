@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_development_dependency "appraisal"
-  s.add_development_dependency "rails", "= 3.2.9"
-  s.add_development_dependency "rspec-rails", ">= 2.0"
+  s.add_development_dependency "rails", "= 6.0.6.1"
+  s.add_development_dependency "rspec-rails", ">= 3.0"
 end
