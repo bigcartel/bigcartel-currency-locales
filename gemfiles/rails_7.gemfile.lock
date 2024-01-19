@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    bigcartel-currency-locales (1.6.0)
+    bigcartel-currency-locales (2.0.0)
 
 GEM
   remote: http://rubygems.org/
