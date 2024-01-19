@@ -3,7 +3,7 @@ ENV["RAILS_ENV"] = "test"
 require 'bigcartel-currency-locales'
 require 'action_controller/railtie'
 
-$stdout.puts "\nTesting against Rails #{ Rails::VERSION::STRING }"
+$stdout.puts "\nTesting against Rails #{Rails::VERSION::STRING}"
 
 BigCartel::CurrencyLocales.insert
 
