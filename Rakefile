@@ -2,12 +2,7 @@
 require "bundler/gem_tasks"
 
 require 'rake'
-# We have different tasks for rspec-rails between rails 2 and 3
-begin
-  require 'rspec/core/rake_task'
-rescue LoadError
-  require 'spec/rake/spectask'
-end
+require 'rspec/core/rake_task'
 
 require 'appraisal'
 
