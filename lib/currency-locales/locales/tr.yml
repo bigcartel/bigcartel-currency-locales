@@ -9,7 +9,7 @@ tr:
 
     currency:
       format:
-        format: "%n %u"
+        format: "%u%n"
         unit: "₺"
         separator: ","
         delimiter: "."

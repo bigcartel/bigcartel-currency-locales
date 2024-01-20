@@ -11,7 +11,7 @@ ja:
       format:
         format: "%u%n"
         unit: "¥"
-        separator: "."
+        separator: ""
         delimiter: ","
         precision: 0
         significant: false

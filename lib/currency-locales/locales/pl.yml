@@ -9,7 +9,7 @@ pl:
 
     currency:
       format:
-        format: "%n%u"
+        format: "%n %u"
         unit: "zł"
         separator: ","
         delimiter: ""
@@ -24,4 +24,3 @@ pl:
     precision:
       format:
         delimiter: ""
-        

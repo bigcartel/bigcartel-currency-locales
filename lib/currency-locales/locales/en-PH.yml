@@ -1,4 +1,4 @@
-"en-PH":
+en-PH:
   number:
     format:
       separator: "."
@@ -24,4 +24,3 @@
     precision:
       format:
         delimiter: ","
-        
