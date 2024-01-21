@@ -1,4 +1,4 @@
-en-IN:
+ngn:
   number:
     format:
       separator: "."
@@ -10,7 +10,7 @@ en-IN:
     currency:
       format:
         format: "%u%n"
-        unit: "₹"
+        unit: "₦"
         separator: "."
         delimiter: ","
         precision: 2
