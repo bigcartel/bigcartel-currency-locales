@@ -1,0 +1,22 @@
+hr:
+  number:
+    format:
+      precision: 2
+      separator: ","
+      delimiter: "."
+
+    currency:
+      format:
+        unit: 'kn'
+        precision: 2
+        format: '%n %u'
+        separator: ","
+        delimiter: "."
+
+    percentage:
+      format:
+        delimiter: "."
+        
+    precision:
+      format:
+        delimiter: "."
