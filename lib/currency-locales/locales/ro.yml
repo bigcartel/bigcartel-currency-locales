@@ -10,7 +10,7 @@ ro:
     currency:
       format:
         format: "%n %u"
-        unit: "RON"
+        unit: "lei"
         separator: ","
         delimiter: "."
         precision: 2
