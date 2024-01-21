@@ -4,7 +4,7 @@ hu:
       precision: 2
       separator: ","
       delimiter: ""
-       
+
     currency:
       format:
         unit: 'Ft'
