@@ -23,4 +23,4 @@ en-IN:
 
     precision:
       format:
-        delimiter: ""
+        delimiter: ","

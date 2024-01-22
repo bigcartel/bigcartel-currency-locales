@@ -1,4 +1,4 @@
-en-AU:
+ae:
   number:
     format:
       separator: "."
@@ -9,8 +9,8 @@ en-AU:
 
     currency:
       format:
-        format: "%u%n"
-        unit: "$"
+        format: "%u %n"
+        unit: "AED"
         separator: "."
         delimiter: ","
         precision: 2
