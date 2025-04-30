@@ -9,7 +9,7 @@ pt-BR:
 
     currency:
       format:
-        format: "%u%n"
+        format: "%u %n"
         unit: "R$"
         separator: ","
         delimiter: "."

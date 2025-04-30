@@ -9,7 +9,7 @@ ms-MY:
 
     currency:
       format:
-        format: "%u%n"
+        format: "%u %n"
         unit: "RM"
         separator: "."
         delimiter: ","

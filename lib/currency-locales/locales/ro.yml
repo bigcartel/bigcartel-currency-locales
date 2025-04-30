@@ -17,10 +17,10 @@ ro:
         significant: false
         strip_insignificant_zeros: false
 
-  percentage:
-    format:
-      delimiter: ""
+    percentage:
+      format:
+        delimiter: ""
 
-  precision:
-    format:
-      delimiter: "."
+    precision:
+      format:
+        delimiter: "."

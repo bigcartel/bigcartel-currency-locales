@@ -9,7 +9,7 @@ il:
 
     currency:
       format:
-        format: "%u%n"
+        format: "%u %n"
         unit: "₪"
         separator: "."
         delimiter: ","

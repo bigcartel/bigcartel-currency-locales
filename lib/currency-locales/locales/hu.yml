@@ -3,15 +3,19 @@ hu:
     format:
       precision: 2
       separator: ","
-      delimiter: ""
+      delimiter: " "
+      significant: false
+      strip_insignificant_zeros: false
 
     currency:
       format:
+        format: '%n %u'
         unit: 'Ft'
-        precision: 0
-        format: '%n%u'
         separator: ","
-        delimiter: ""
+        delimiter: " "
+        precision: 0
+        significant: false
+        strip_insignificant_zeros: false
 
     percentage:
       format:
@@ -19,7 +23,7 @@ hu:
         
     precision:
       format:
-        delimiter: ""
+        delimiter: " "
         
     paypal:
       format:
