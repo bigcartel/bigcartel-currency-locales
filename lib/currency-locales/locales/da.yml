@@ -9,7 +9,7 @@ da:
 
     currency:
       format:
-        format: "%n%u"
+        format: "%n %u"
         unit: "kr"
         separator: ","
         delimiter: "."

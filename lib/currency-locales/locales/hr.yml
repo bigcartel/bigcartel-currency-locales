@@ -4,6 +4,8 @@ hr:
       precision: 2
       separator: ","
       delimiter: "."
+      significant: false
+      strip_insignificant_zeros: false
 
     currency:
       format:
@@ -12,6 +14,8 @@ hr:
         format: '%n %u'
         separator: ","
         delimiter: "."
+        significant: false
+        strip_insignificant_zeros: false
 
     percentage:
       format:

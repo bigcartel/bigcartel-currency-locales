@@ -9,7 +9,7 @@ zh-TW:
       
     currency:
       format:
-        format: "%u%n"
+        format: "%u %n"
         unit: "NT$"
         separator: "."
         delimiter: ","
