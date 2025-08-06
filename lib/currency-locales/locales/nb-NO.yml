@@ -1,0 +1,26 @@
+nb-NO:
+  number:
+    format:
+      precision: 2
+      separator: ","
+      delimiter: " "
+      significant: false
+      strip_insignificant_zeros: false
+
+    currency:
+      format:
+        unit: "kr"
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        delimiter: " "
+        significant: false
+        strip_insignificant_zeros: false
+
+    percentage:
+      format:
+        delimiter: ""
+
+    precision:
+      format:
+        delimiter: " "
