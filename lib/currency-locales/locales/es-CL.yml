@@ -1,0 +1,30 @@
+es-CL:
+  number:
+    format:
+      separator: ","
+      delimiter: "."
+      precision: 0
+      significant: false
+      strip_insignificant_zeros: false
+
+    currency:
+      format:
+        format: "%u %n"
+        unit: "$"
+        separator: ","
+        delimiter: "."
+        precision: 0
+        significant: false
+        strip_insignificant_zeros: false
+
+    percentage:
+      format:
+        delimiter: ""
+
+    precision:
+      format:
+        delimiter: "."
+
+    paypal:
+      format:
+        precision: 0
