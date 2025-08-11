@@ -9,7 +9,7 @@ ar-EG:
 
     currency:
       format:
-        format: "%u %n"
+        format: "%n %u"
         unit: "E£"
         separator: "."
         delimiter: ","

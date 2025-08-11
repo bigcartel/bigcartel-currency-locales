@@ -9,7 +9,7 @@ ar-AE:
 
     currency:
       format:
-        format: "%u %n"
+        format: "%n %u"
         unit: "د.إ"
         separator: "."
         delimiter: ","

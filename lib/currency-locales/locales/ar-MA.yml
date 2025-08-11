@@ -9,7 +9,7 @@ ar-MA:
 
     currency:
       format:
-        format: "%u %n"
+        format: "%n %u"
         unit: "د.م."
         separator: ","
         delimiter: "."
