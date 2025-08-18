@@ -1,22 +1,19 @@
 bg:
   number:
-    format:
-      precision: 2
-      separator: ","
-      delimiter: " "
-
     currency:
       format:
-        unit: 'лв'
-        precision: 2
-        format: '%n%u'
-        separator: ","
         delimiter: " "
-
-  percentage:
+        format: '%n%u'
+        precision: 2
+        separator: ","
+        unit: 'лв'
     format:
       delimiter: " "
-        
-  precision:
-    format:
-      delimiter: " "
+      precision: 2
+      separator: ","
+    percentage:
+      format:
+        delimiter: " "
+    precision:
+      format:
+        delimiter: " "
