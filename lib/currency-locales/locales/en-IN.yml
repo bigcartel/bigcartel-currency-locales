@@ -1,6 +1,7 @@
 en-IN:
   number:
     currency:
+      format:
         delimiter: ","
         format: "%u%n"
         precision: 2
@@ -8,7 +9,6 @@ en-IN:
         significant: false
         strip_insignificant_zeros: false
         unit: "₹"
-      format:
     format:
       delimiter: ","
       precision: 2
