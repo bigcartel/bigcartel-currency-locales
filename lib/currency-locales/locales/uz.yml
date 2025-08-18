@@ -1,0 +1,71 @@
+---
+uz:
+  number:
+    currency:
+      format:
+        delimiter: " "
+        format: "%n %u"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: so'm.
+    format:
+      delimiter: " "
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: milliard
+            few: milliard
+            many: milliard
+            other: milliard
+          million:
+            one: million
+            few: million
+            many: million
+            other: million
+          quadrillion:
+            one: kvadrillion
+            few: kvadrillion
+            many: kvadrillion
+            other: kvadrillion
+          thousand:
+            one: ming
+            few: ming
+            many: ming
+            other: ming
+          trillion:
+            one: trillion
+            few: trillion
+            many: trillion
+            other: trillion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: false
+        strip_insignificant_zeros: false
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: bayt
+            few: bayt
+            many: bayt
+            other: bayt
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''

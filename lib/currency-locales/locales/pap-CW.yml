@@ -1,0 +1,52 @@
+---
+pap-CW:
+  number:
+    currency:
+      format:
+        delimiter: "."
+        format: "%u%n"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: ANG
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: bion
+          million: mion
+          quadrillion: kuatrion
+          thousand: mil
+          trillion: trion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: bèrdat
+        strip_insignificant_zeros: bèrdat
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Bait
+            other: Bait
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+          pb: PB
+          eb: EB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''

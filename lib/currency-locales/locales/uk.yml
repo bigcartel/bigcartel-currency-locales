@@ -1,0 +1,71 @@
+---
+uk:
+  number:
+    currency:
+      format:
+        delimiter: " "
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "₴"
+    format:
+      delimiter: " "
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: Мільярд
+            few: Мільярдів
+            many: Мільярдів
+            other: Мільярдів
+          million:
+            one: Мільйон
+            few: Мільйонів
+            many: Мільйонів
+            other: Мільйонів
+          quadrillion:
+            one: Квадрильйон
+            few: Квадрильйонів
+            many: Квадрильйонів
+            other: Квадрильйонів
+          thousand:
+            one: Тисяча
+            few: Тисяч
+            many: Тисяч
+            other: Тисяч
+          trillion:
+            one: Трильйон
+            few: Трильйонів
+            many: Трильйонів
+            other: Трильйонів
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: false
+        strip_insignificant_zeros: false
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: байт
+            few: байти
+            many: байтів
+            other: байту
+          gb: ГБ
+          kb: кБ
+          mb: МБ
+          tb: ТБ
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
