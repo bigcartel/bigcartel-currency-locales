@@ -1,0 +1,55 @@
+---
+ml:
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u%n"
+        negative_format: "-%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "₹"
+    format:
+      delimiter: ","
+      precision: 3
+      round_mode: default
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: നൂറുകോടി
+          million: ദശലക്ഷം
+          quadrillion: ക്വാഡ്രില്യൺ
+          thousand: ആയിരം
+          trillion: ട്രില്യൺ
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: ബൈറ്റ്
+            other: ബൈറ്റുകൾ
+          eb: ഇ.ബി
+          gb: ജി.ബി
+          kb: കെ.ബി.
+          mb: എം.ബി.
+          pb: പി.ബി
+          tb: ടി.ബി
+          zb: സി.ബി
+    percentage:
+      format:
+        delimiter: ''
+        format: ''
+    precision:
+      format:
+        delimiter: ''
