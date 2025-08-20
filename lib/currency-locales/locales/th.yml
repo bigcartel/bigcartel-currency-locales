@@ -9,7 +9,7 @@ th:
         separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: บาท
+        unit: "฿"
     format:
       delimiter: ","
       precision: 3
