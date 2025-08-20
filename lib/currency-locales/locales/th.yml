@@ -4,7 +4,7 @@ th:
     currency:
       format:
         delimiter: ","
-        format: "%n %u"
+        format: "%u%n"
         precision: 2
         separator: "."
         significant: false
