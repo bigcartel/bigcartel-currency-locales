@@ -1,3 +1,4 @@
+---
 tr:
   number:
     currency:
@@ -15,12 +16,35 @@ tr:
       separator: ","
       significant: false
       strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: Milyar
+          million: Milyon
+          quadrillion: Katrilyon
+          thousand: Bin
+          trillion: Trilyon
+          unit: ''
+      format:
+        delimiter: "."
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Bayt
+            other: Bayt
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
     percentage:
       format:
-        delimiter: '.'
-        separator: ','
-        precision: 2
+        delimiter: ''
+        format: "%%n"
     precision:
       format:
-        delimiter: '.'
-        separator: ','
+        delimiter: "."

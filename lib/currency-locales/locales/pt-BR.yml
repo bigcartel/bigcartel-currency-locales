@@ -1,3 +1,4 @@
+---
 pt-BR:
   number:
     currency:
@@ -8,16 +9,53 @@ pt-BR:
         separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: "R$"
+        unit: R$
     format:
       delimiter: "."
-      precision: 2
+      precision: 3
+      round_mode: default
       separator: ","
       significant: false
       strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: bilhão
+            other: bilhões
+          million:
+            one: milhão
+            other: milhões
+          quadrillion:
+            one: quatrilhão
+            other: quatrilhões
+          thousand: mil
+          trillion:
+            one: trilhão
+            other: trilhões
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          eb: EB
+          gb: GB
+          kb: KB
+          mb: MB
+          pb: PB
+          tb: TB
     percentage:
       format:
-        delimiter: ""
+        delimiter: "."
+        format: "%n%"
     precision:
       format:
         delimiter: "."
